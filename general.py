@@ -49,10 +49,14 @@ def palindrome(string):
             return s[0] == s[-1] and palindrome(string[1:-1])
     
 def anagrams(string1, string2):
-    for char in string1:
-        if char in string2:
-            string2.remove(string2)
-    if len(string2) == 0:
+    s1 = [char for char in string1]
+    s2 = [char for char in string2]
+    for char in s1:
+        try:
+            s2.remove(char)
+        except:
+            pass
+    if len(s2) == 0:
         return True
     else:
         return False

@@ -1,3 +1,5 @@
+#Jacob Wharton
+
 
 #### General
 1.  Create a function that accepts an array of integers and returns the sum of all the even numbers in the array.

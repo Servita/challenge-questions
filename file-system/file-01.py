@@ -6,5 +6,3 @@ def count_words(path: str) -> int:
     return sum(len(line) for line in lines)
 
 print(count_words("challenge-questions/file-system/words-file.txt"))
-
-#not finished

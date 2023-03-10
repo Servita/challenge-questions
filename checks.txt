@@ -1,0 +1,36 @@
+total:
+print(total([1,2,3,4,5]))
+print(total([-1,2,-3,4,5]))
+print(total([0,2,3,4,5]))
+print(total([1.4,2,3,4,5]))
+print(total(["i",2,3,4,5]))
+print(total([1,2,3,"i",5]))
+
+common:
+#print(common([1,2,3,4,5], [1,2,3,4,5]))
+#print(common([0,0,0,0,0], [1,2,3,4,5]))
+#print(common([1,2,3], [1,2,3,4,5]))
+#print(common([1,2,3,4,5], [1,2,3]))
+#print(common([1,2,-3,4,5], [1,-2,3,4,5]))
+print(common([1.4,2,3,4,5], [1,2,3,4,5]))
+print(common(["i",2,3,4,5], [1,2,3,4,5]))
+print(common([1,2,3,"i",5], [1,2,3,4,5]))
+
+second_smallest:
+print(second_smallest([1,2,3,4,5]))
+print(second_smallest([-1,2,-3,4,5]))
+print(second_smallest([0,2,3,4,5]))
+print(second_smallest([1.4,2,3,4,5]))
+print(second_smallest(["i",2,3,4,5]))
+print(second_smallest([1,2,3,"i",5]))
+
+palindrome:
+print(palindrome("test"))
+print(palindrome(0))
+print(palindrome("abcba"))
+print(palindrome("a"))
+print(palindrome("aa"))
+print(palindrome("ab"))
+print(palindrome("abba"))
+
+#try to create function to check any variable type

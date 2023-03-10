@@ -98,20 +98,20 @@
 ##### Input
 ```json
 [
-  { date: '2022-01-01', value: 100 },
-  { date: '2022-01-02', value: 200 },
-  { date: '2022-01-03', value: 150 },
-  { date: '2022-01-04', value: 300 }
+  { "date": "2022-01-01", "value": 100 },
+  { "date": "2022-01-02", "value": 200 },
+  { "date": "2022-01-03", "value": 150 },
+  { "date": "2022-01-04", "value": 300 }
 ]
 
 ```
 ##### Output
 ```json
 [
-  { date: '2022-01-01', value: 100, total: 100 },
-  { date: '2022-01-02', value: 200, total: 300 },
-  { date: '2022-01-03', value: 150, total: 450 },
-  { date: '2022-01-04', value: 300, total: 750 }
+  { "date": "2022-01-01", "value": 100, "total": 100 },
+  { "date": "2022-01-02", "value": 200, "total": 300 },
+  { "date": "2022-01-03", "value": 150, "total": 450 },
+  { "date": "2022-01-04", "value": 300, "total": 750 }
 ]
 ```
 
@@ -120,20 +120,20 @@
 ##### Input
 ```json
 [
-  { name: 'John', parent: null },
-  { name: 'Mary', parent: 'John' },
-  { name: 'Bob', parent: 'John' },
-  { name: 'Alice', parent: 'Mary' }
+  { "name": "John", "parent": null },
+  { "name": "Mary", "parent": "John" },
+  { "name": "Bob", "parent": "John" },
+  { "name": "Alice", "parent": "Mary" }
 ]
 ```
 ##### Output
 ```json
 [
   {
-    name: 'John',
-    children: [
-      { name: 'Mary', children: [{ name: 'Alice', children: [] }] },
-      { name: 'Bob', children: [] }
+    "name": "John",
+    "children": [
+      { "name": "Mary", "children": [{ "name": "Alice", "children": [] }] },
+      { "name": "Bob", "children": [] }
     ]
   }
 ]
